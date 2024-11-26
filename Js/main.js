@@ -89,7 +89,7 @@ function getRandomHexString(stringLength) {
   return hexString;
 }
 
-generate.addEventListener("mouseover", function () {
+generate.addEventListener("click", function () {
   // Generate random hex for the background
   const randomHexString = "#" + getRandomHexString(6);
 
