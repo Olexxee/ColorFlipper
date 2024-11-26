@@ -1,0 +1,59 @@
+body {
+  transition: background 0.5s;
+  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+section#color-display {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: white;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+  padding: 4rem;
+  border-radius: 20px;
+  text-align: center;
+  border: 8px solid #000000;
+}
+
+section#color-display:hover {
+  border-color: #333;
+}
+
+section#color-display h1 {
+  font-weight: 900;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+section#color-display #new-color {
+  width: 150px;
+  height: 80px;
+  background-color: #000000;
+  color: #fff;
+  font-weight: 900;
+  padding: 1rem;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+section#color-display #new-color:hover {
+  background-color: #333;
+}
+
+/* 
+
+Circular style for the element
+
+.circular-container {
+  border-radius: 70%;
+}
+
+.circular-button {
+  border-radius: 70%;
+} */
